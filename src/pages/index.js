@@ -1,13 +1,13 @@
 import Head from "next/head";
 import {useState, useRef} from "react";
 
-// import json from "../json/product.json"
+import json from "../json/product.json"
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
   const [tagClicked, setTagClicked] = useState(null)
   const [inputValue, setInputValue] = useState('')
-  const [listProducts, setListProducts] = useState([])
+  const [listProducts, setListProducts] = useState(json.products)
   const inputRef = useRef(null)
 
   const navigateLink = (url) => {
@@ -17,7 +17,7 @@ export default function Home() {
   const tagClick = (tag) => {
     setInputValue('')
     setTagClicked(tagClicked?.id === tag.id ? null : tag)
-    // setListProducts(tagClicked?.id === tag.id ? json.products : json.products.filter(i => i.id === tag.id))
+    setListProducts(tagClicked?.id === tag.id ? json.products : json.products.filter(i => i.id === tag.id))
   }
 
   const onKeyDownHandler = (e) => {
@@ -34,7 +34,7 @@ export default function Home() {
 
   const onClearInput = () => {
     setInputValue('')
-    // setListProducts(json.products)
+    setListProducts(json.products)
     inputRef.current.focus()
   }
 
@@ -42,34 +42,34 @@ export default function Home() {
     setTagClicked(null);    // Reset the clicked tag
 
     // Check if there is an input value
-    // if (inputValue) {
-    //   // Filter products based on the input value
-    //   const filteredProducts = json.products
-    //       .filter(product => {
-    //         // Check if the product name or any sub-product name contains the input value
-    //         const productMatches = product.name.includes(inputValue);
-    //         const subProductsMatches = product.subProducts.some(subProduct =>
-    //             subProduct.subProductName.includes(inputValue)
-    //         );
-    //         return productMatches || subProductsMatches;
-    //       })
-    //       .map(product => {
-    //         // Filter sub-products inside the matched products
-    //         const filteredSubProducts = product.subProducts.filter(subProduct =>
-    //             subProduct.subProductName.includes(inputValue)
-    //         );
-    //
-    //         // Return the product with filtered sub-products
-    //         return {
-    //           ...product,
-    //           subProducts: filteredSubProducts
-    //         };
-    //       });
-    //
-    //   setListProducts(filteredProducts); // Set the filtered products
-    // } else {
-    //   setListProducts(json.products)
-    // }
+    if (inputValue) {
+      // Filter products based on the input value
+      const filteredProducts = json.products
+          .filter(product => {
+            // Check if the product name or any sub-product name contains the input value
+            const productMatches = product.name.includes(inputValue);
+            const subProductsMatches = product.subProducts.some(subProduct =>
+                subProduct.subProductName.includes(inputValue)
+            );
+            return productMatches || subProductsMatches;
+          })
+          .map(product => {
+            // Filter sub-products inside the matched products
+            const filteredSubProducts = product.subProducts.filter(subProduct =>
+                subProduct.subProductName.includes(inputValue)
+            );
+
+            // Return the product with filtered sub-products
+            return {
+              ...product,
+              subProducts: filteredSubProducts
+            };
+          });
+
+      setListProducts(filteredProducts); // Set the filtered products
+    } else {
+      setListProducts(json.products)
+    }
   };
 
 
@@ -240,17 +240,17 @@ export default function Home() {
                 </div>
               </div>
 
-              {/*<div className={styles.tabsBlock}>*/}
-              {/*  {json.products.map((product) => (*/}
-              {/*      <div*/}
-              {/*          className={`${styles.tabName} ${product.id === tagClicked?.id ? styles.activeTab : ''}`}*/}
-              {/*          key={product.id}*/}
-              {/*          onClick={() => tagClick(product)}*/}
-              {/*      >*/}
-              {/*        {product.name} ({product.subProducts.length})*/}
-              {/*      </div>*/}
-              {/*  ))}*/}
-              {/*</div>*/}
+              <div className={styles.tabsBlock}>
+                {json.products.map((product) => (
+                    <div
+                        className={`${styles.tabName} ${product.id === tagClicked?.id ? styles.activeTab : ''}`}
+                        key={product.id}
+                        onClick={() => tagClick(product)}
+                    >
+                      {product.name} ({product.subProducts.length})
+                    </div>
+                ))}
+              </div>
 
               {listProducts.map((product) => (
                   <div className={styles.productItem} key={product.id}>
