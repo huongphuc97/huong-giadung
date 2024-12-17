@@ -1,0 +1,278 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "áo 1",
+      "subProducts": [
+        {
+          "subProductId": 1.1,
+          "subProductName": "áo 1.1 gkk gdfkg kfdg kdfg kdfg kdfg kd",
+          "categoryId": 1,
+          "categoryName": "áo 1",
+          "url": "https://facebook.com"
+        },
+        {
+          "subProductId": 1.2,
+          "subProductName": "áo 2.1 gkk gdfkg kfdg kdfg kdfg kdfg kd",
+          "categoryId": 1,
+          "categoryName": "áo 1",
+          "url": "https://facebook.com"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "áo 3",
+      "subProducts": [
+        {
+          "subProductId": 3.1,
+          "subProductName": "áo 3.1 gkk gdfkg kfdg kdfg kdfg kdfg kd",
+          "categoryId": 3,
+          "categoryName": "áo 3",
+          "url": "https://facebook.com"
+        },
+        {
+          "subProductId": 3.2,
+          "subProductName": "áo 3.2 gkk gdfkg kfdg kdfg kdfg kdfg kd",
+          "categoryId": 3,
+          "categoryName": "áo 3",
+          "url": "https://facebook.com"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "áo 4",
+      "subProducts": [
+        {
+          "subProductId": 4.1,
+          "subProductName": "áo 4.1 gkk gdfkg kfdg kdfg kdfg kdfg kd",
+          "categoryId": 4,
+          "categoryName": "áo 4",
+          "url": "https://facebook.com"
+        },
+        {
+          "subProductId": 4.2,
+          "subProductName": "áo 4.2 gkk gdfkg kfdg kdfg kdfg kdfg kd",
+          "categoryId": 4,
+          "categoryName": "áo 4",
+          "url": "https://facebook.com"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "áo 5",
+      "subProducts": [
+        {
+          "subProductId": 5.1,
+          "subProductName": "áo 5.1 gkk gdfkg kfdg kdfg kdfg kdfg kd",
+          "categoryId": 5,
+          "categoryName": "Ã¡o 5",
+          "url": "https://facebook.com"
+        },
+        {
+          "subProductId": 5.2,
+          "subProductName": "áo 5.2 gkk gdfkg kfdg kdfg kdfg kdfg kd",
+          "categoryId": 5,
+          "categoryName": "áo 5",
+          "url": "https://facebook.com"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "áo 6",
+      "subProducts": [
+        {
+          "subProductId": 6.1,
+          "subProductName": "áo 6.1 gkk gdfkg kfdg kdfg kdfg kdfg kd",
+          "categoryId": 6,
+          "categoryName": "áo 6",
+          "url": "https://facebook.com"
+        },
+        {
+          "subProductId": 6.2,
+          "subProductName": "áo 6.2 gkk gdfkg kfdg kdfg kdfg kdfg kd",
+          "categoryId": 6,
+          "categoryName": "áo 6",
+          "url": "https://facebook.com"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "áo 7",
+      "subProducts": [
+        {
+          "subProductId": 7.1,
+          "subProductName": "áo 7.1 gkk gdfkg kfdg kdfg kdfg kdfg kd",
+          "categoryId": 7,
+          "categoryName": "áo 7",
+          "url": "https://facebook.com"
+        },
+        {
+          "subProductId": 7.2,
+          "subProductName": "áo 7.2 gkk gdfkg kfdg kdfg kdfg kdfg kd",
+          "categoryId": 7,
+          "categoryName": "áo 7",
+          "url": "https://facebook.com"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "áo 8",
+      "subProducts": [
+        {
+          "subProductId": 8.1,
+          "subProductName": "áo 8.1 gkk gdfkg kfdg kdfg kdfg kdfg kd",
+          "categoryId": 8,
+          "categoryName": "áo 8",
+          "url": "https://facebook.com"
+        },
+        {
+          "subProductId": 8.2,
+          "subProductName": "áo 8.2 gkk gdfkg kfdg kdfg kdfg kdfg kd",
+          "categoryId": 8,
+          "categoryName": "áo 8",
+          "url": "https://facebook.com"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "áo 9",
+      "subProducts": [
+        {
+          "subProductId": 9.1,
+          "subProductName": "áo 9.1 gkk gdfkg kfdg kdfg kdfg kdfg kd",
+          "categoryId": 9,
+          "categoryName": "áo 9",
+          "url": "https://facebook.com"
+        },
+        {
+          "subProductId": 9.2,
+          "subProductName": "áo 9.2 gkk gdfkg kfdg kdfg kdfg kdfg kd",
+          "categoryId": 9,
+          "categoryName": "áo 9",
+          "url": "https://facebook.com"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "áo 10",
+      "subProducts": [
+        {
+          "subProductId": 10.1,
+          "subProductName": "áo 10.1 gkk gdfkg kfdg kdfg kdfg kdfg kd",
+          "categoryId": 10,
+          "categoryName": "áo 10",
+          "url": "https://facebook.com"
+        },
+        {
+          "subProductId": 10.2,
+          "subProductName": "áo 10.2 gkk gdfkg kfdg kdfg kdfg kdfg kd",
+          "categoryId": 10,
+          "categoryName": "áo 10",
+          "url": "https://facebook.com"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "áo 11",
+      "subProducts": [
+        {
+          "subProductId": 11.1,
+          "subProductName": "áo 11.1 gkk gdfkg kfdg kdfg kdfg kdfg kd",
+          "categoryId": 11,
+          "categoryName": "áo 11",
+          "url": "https://facebook.com"
+        },
+        {
+          "subProductId": 11.2,
+          "subProductName": "áo 11.2 gkk gdfkg kfdg kdfg kdfg kdfg kd",
+          "categoryId": 11,
+          "categoryName": "áo 11",
+          "url": "https://facebook.com"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "áo 12",
+      "subProducts": [
+        {
+          "subProductId": 12.1,
+          "subProductName": "áo 12.1 gkk gdfkg kfdg kdfg kdfg kdfg kd",
+          "categoryId": 12,
+          "categoryName": "áo 12",
+          "url": "https://facebook.com"
+        },
+        {
+          "subProductId": 12.2,
+          "subProductName": "áo 12.2 gkk gdfkg kfdg kdfg kdfg kdfg kd",
+          "categoryId": 12,
+          "categoryName": "áo 12",
+          "url": "https://facebook.com"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "áo 13",
+      "subProducts": [
+        {
+          "subProductId": 13.1,
+          "subProductName": "áo 13.1 gkk gdfkg kfdg kdfg kdfg kdfg kd",
+          "categoryId": 13,
+          "categoryName": "áo 13",
+          "url": "https://facebook.com"
+        },
+        {
+          "subProductId": 13.2,
+          "subProductName": "áo 13.2 gkk gdfkg kfdg kdfg kdfg kdfg kd",
+          "categoryId": 13,
+          "categoryName": "áo 13",
+          "url": "https://facebook.com"
+        },
+        {
+          "subProductId": 13.3,
+          "subProductName": "áo 13.3 gkk gdfkg kfdg kdfg kdfg kdfg kd",
+          "categoryId": 13,
+          "categoryName": "Ã¡o 13",
+          "url": "https://facebook.com"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "áo 14",
+      "subProducts": [
+        {
+          "subProductId": 14.1,
+          "subProductName": "áo 14.1 gkk gdfkg kfdg kdfg kdfg kdfg kd",
+          "categoryId": 14,
+          "categoryName": "áo 14",
+          "url": "https://facebook.com"
+        },
+        {
+          "subProductId": 14.2,
+          "subProductName": "áo 14.2 gkk gdfkg kfdg kdfg kdfg kdfg kd",
+          "categoryId": 14,
+          "categoryName": "áo 14",
+          "url": "https://facebook.com"
+        },
+        {
+          "subProductId": 14.3,
+          "subProductName": "áo 14.3 gkk gdfkg kfdg kdfg kdfg kdfg kd",
+          "categoryId": 14,
+          "categoryName": "áo 14",
+          "url": "https://facebook.com"
+        }
+      ]
+    }
+  ]
+}
